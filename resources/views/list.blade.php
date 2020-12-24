@@ -22,7 +22,6 @@
     margin: 10px;
     border-style: none;
     outline-width: 0px;
-    background-color: ;
     border-radius: 30px;
     font-size: 18px;
 
