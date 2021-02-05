@@ -112,7 +112,7 @@
                 <hr/>
               <div class="card-body">
                       <h5 class="card-title"  style="font-size: 29px;">Thank You...</h5>
-                      <p class="card-text">Thank you for service we are happy t help You.</p>
+                      <p class="card-text">Thank you for service we are happy to help You.</p>
                       <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                   </div>
               </div>

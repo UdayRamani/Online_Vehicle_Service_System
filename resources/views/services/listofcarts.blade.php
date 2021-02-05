@@ -32,7 +32,7 @@
   
 }
 </style>
-   <title>Document</title>
+   <title>Services</title>
 </head>
 <body>
 <nav class="navbar navbar-dark bg-primary">
@@ -59,7 +59,7 @@
                 <h5 class="card-title">PhoneNo: {{$service['phoneno']}}</h5><br>
                 <h5 class="card-title">Address Is : {{$service['address']}}</h5><br>
                 <a href="{{url('payment')}}" class="btn btn-info">checkOut</a><br><br>
-                <a href="{{url('deletecart/'.$service->id)}}" class="btn btn-info">DeleteRequest</a><br>
+                <!-- <a href="{{url('deletecart/'.$service->id)}}" class="btn btn-info">DeleteRequest</a><br> -->
 
            
               </div><br>
