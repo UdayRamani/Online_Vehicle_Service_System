@@ -37,7 +37,6 @@
                 <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
             </svg> 
     </nav>
-
     <br><br>
     <section id="services" class="services">
         <div class="container" data-aos="fade-up">
@@ -52,20 +51,17 @@
                 <div class=" textname" style="background-color:cornflowerblue;">{{$service['servicecentername']}}</div>
             </h3>
             <div class="card-body">
-          
-                <h5 class="card-title">PhoneNo: {{$service['phoneno']}}</h5><br>
+                <h5 class="card-title">Date: {{$service['phoneno']}}</h5><br>
+                <h5 class="card-title">Status: {{$service['phoneno']}}</h5><br>  
                 <h5 class="card-title">Address Is : {{$service['address']}}</h5><br>
+                <h5 class="card-title">PhoneNo: {{$service['phoneno']}}</h5><br>
+
                 <a href="{{url('payment')}}" class="btn btn-info">checkOut</a><br><br>
                 @endforeach
-              </div><br>
-          
-                   
-        </div>
-
-
+              </div><br> 
         </div>
         </div>
-       
+        </div>
     </section>
 </body>
 </html>

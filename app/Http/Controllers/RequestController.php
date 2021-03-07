@@ -22,10 +22,8 @@ class RequestController extends Controller
     $service=servicere::find($id);
     // dd($service);
     $service->delete();
-
     return redirect()->to('servicecart');
   }
-
   public function payment(){
 
     return view('services.Payment');
@@ -48,7 +46,8 @@ class RequestController extends Controller
       'longitude'=>$data->longitude,
       'servicecentername'=>$serviceid->servicecentername,
       'phoneno'=>$serviceid->phoneno,
-      'address'=>$serviceid->address
+      'address'=>$serviceid->address,
+      
     ];
 
     $service=Services::all();

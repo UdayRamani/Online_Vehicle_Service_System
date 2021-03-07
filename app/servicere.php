@@ -9,8 +9,6 @@ use phpDocumentor\Reflection\Types\Parent_;
 
 class servicere extends Pivot
 {
-
-
     protected $table='service_user';
 
 
